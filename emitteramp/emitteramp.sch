@@ -1,0 +1,214 @@
+EESchema Schematic File Version 4
+LIBS:emitteramp-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:BD237 Q1
+U 1 1 5E19F22C
+P 3650 3100
+F 0 "Q1" H 3842 3146 50  0000 L CNN
+F 1 "BD237" H 3842 3055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown" H 3850 3025 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BD/BD233.pdf" H 3650 3100 50  0001 L CNN
+	1    3650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BD237 Q2
+U 1 1 5E19F2F0
+P 3650 4550
+F 0 "Q2" H 3842 4596 50  0000 L CNN
+F 1 "BD237" H 3842 4505 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown" H 3850 4475 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BD/BD233.pdf" H 3650 4550 50  0001 L CNN
+	1    3650 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E19F6B4
+P 3750 3600
+F 0 "R1" H 3820 3646 50  0000 L CNN
+F 1 "R" H 3820 3555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 3680 3600 50  0001 C CNN
+F 3 "~" H 3750 3600 50  0001 C CNN
+	1    3750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E19F732
+P 3750 5050
+F 0 "R2" H 3820 5096 50  0000 L CNN
+F 1 "R" H 3820 5005 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 3680 5050 50  0001 C CNN
+F 3 "~" H 3750 5050 50  0001 C CNN
+	1    3750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E19F9C6
+P 3750 3850
+F 0 "#PWR0101" H 3750 3600 50  0001 C CNN
+F 1 "GND" H 3755 3677 50  0000 C CNN
+F 2 "" H 3750 3850 50  0001 C CNN
+F 3 "" H 3750 3850 50  0001 C CNN
+	1    3750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E19FA1C
+P 3750 5300
+F 0 "#PWR0102" H 3750 5050 50  0001 C CNN
+F 1 "GND" H 3755 5127 50  0000 C CNN
+F 2 "" H 3750 5300 50  0001 C CNN
+F 3 "" H 3750 5300 50  0001 C CNN
+	1    3750 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3850 3750 3750
+Wire Wire Line
+	3750 5300 3750 5200
+$Comp
+L power:VCC #PWR0103
+U 1 1 5E19FC11
+P 3750 4300
+F 0 "#PWR0103" H 3750 4150 50  0001 C CNN
+F 1 "VCC" H 3767 4473 50  0000 C CNN
+F 2 "" H 3750 4300 50  0001 C CNN
+F 3 "" H 3750 4300 50  0001 C CNN
+	1    3750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5E19FC67
+P 1750 4050
+F 0 "#PWR0104" H 1750 3900 50  0001 C CNN
+F 1 "VCC" H 1767 4223 50  0000 C CNN
+F 2 "" H 1750 4050 50  0001 C CNN
+F 3 "" H 1750 4050 50  0001 C CNN
+	1    1750 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 4350 3750 4300
+$Comp
+L power:VCC #PWR0105
+U 1 1 5E1A667C
+P 3750 2700
+F 0 "#PWR0105" H 3750 2550 50  0001 C CNN
+F 1 "VCC" H 3767 2873 50  0000 C CNN
+F 2 "" H 3750 2700 50  0001 C CNN
+F 3 "" H 3750 2700 50  0001 C CNN
+	1    3750 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3100 3450 3100
+Wire Wire Line
+	3100 4550 3450 4550
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E1A80EB
+P 1550 1650
+F 0 "#FLG0101" H 1550 1725 50  0001 C CNN
+F 1 "PWR_FLAG" H 1550 1824 50  0000 C CNN
+F 2 "" H 1550 1650 50  0001 C CNN
+F 3 "~" H 1550 1650 50  0001 C CNN
+	1    1550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 5E1A8185
+P 1900 1650
+F 0 "#PWR0107" H 1900 1500 50  0001 C CNN
+F 1 "VCC" H 1917 1823 50  0000 C CNN
+F 2 "" H 1900 1650 50  0001 C CNN
+F 3 "" H 1900 1650 50  0001 C CNN
+	1    1900 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1650 1550 1750
+Wire Wire Line
+	1550 1750 1900 1750
+Wire Wire Line
+	1900 1750 1900 1650
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 5E1A908B
+P 1550 3950
+F 0 "J1" H 1656 4328 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 1656 4237 50  0000 C CNN
+F 2 "emitteramp:MyConn1x6" H 1550 3950 50  0001 C CNN
+F 3 "~" H 1550 3950 50  0001 C CNN
+	1    1550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E1A66C8
+P 2200 3950
+F 0 "#PWR0106" H 2200 3700 50  0001 C CNN
+F 1 "GND" H 2205 3777 50  0000 C CNN
+F 2 "" H 2200 3950 50  0001 C CNN
+F 3 "" H 2200 3950 50  0001 C CNN
+	1    2200 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4750 3750 4850
+Wire Wire Line
+	3750 3300 3750 3400
+Text GLabel 4250 3400 2    50   Output ~ 0
+out1
+Text GLabel 4300 4850 2    50   Output ~ 0
+out2
+Wire Wire Line
+	4250 3400 3750 3400
+Connection ~ 3750 3400
+Wire Wire Line
+	3750 3400 3750 3450
+Wire Wire Line
+	4300 4850 3750 4850
+Text GLabel 1850 3850 2    50   Input ~ 0
+out1
+Text GLabel 1850 4250 2    50   Input ~ 0
+out2
+Wire Wire Line
+	3750 2700 3750 2900
+Connection ~ 3750 4850
+Wire Wire Line
+	3750 4850 3750 4900
+Wire Wire Line
+	1850 4250 1750 4250
+Wire Wire Line
+	1750 3950 2200 3950
+Wire Wire Line
+	1750 4150 3100 4150
+Wire Wire Line
+	3100 4150 3100 4550
+Wire Wire Line
+	1750 3850 1850 3850
+Wire Wire Line
+	1750 3750 3100 3750
+Wire Wire Line
+	3100 3100 3100 3750
+$EndSCHEMATC

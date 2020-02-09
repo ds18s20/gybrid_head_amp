@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Amplifier_Operational)(type Legacy)(uri ${KIPRJMOD}/libs/Amplifier_Operational.lib)(options "")(descr ""))
+  (lib (name 6H28)(type Legacy)(uri /home/dima/home_projects/6H28/ki/headamp/libs/6H28.lib)(options "")(descr ""))
+  (lib (name Valve)(type Legacy)(uri ${KIPRJMOD}/libs/Valve.lib)(options "")(descr ""))
+)

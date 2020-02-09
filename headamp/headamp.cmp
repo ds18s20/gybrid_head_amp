@@ -1,0 +1,483 @@
+Cmp-Mod V01 Created by PcbNew   date = Вт 07 янв 2020 12:10:47
+
+BeginCmp
+TimeStamp = 5E4233FA
+Path = /5E0F6437
+Reference = RV1;
+ValeurCmp = R_POT_Dual_Separate;
+IdModule  = Potentiometer_THT:Potentiometer_Alps_RK163_Dual_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4231F2
+Path = /5E14F732
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E42367B
+Path = /5E14F90B
+Reference = C2;
+ValeurCmp = C;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E42364B
+Path = /5E14F5DD
+Reference = C3;
+ValeurCmp = C;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423162
+Path = /5E14F690
+Reference = C4;
+ValeurCmp = C;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423104
+Path = /5E1C511E
+Reference = C5;
+ValeurCmp = CP;
+IdModule  = Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4230E9
+Path = /5E173C9B
+Reference = C6;
+ValeurCmp = CP;
+IdModule  = Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E42395B
+Path = /5E17EAD7
+Reference = C7;
+ValeurCmp = CP;
+IdModule  = Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4232DE
+Path = /5E1E035F
+Reference = C8;
+ValeurCmp = CP;
+IdModule  = Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E42312A
+Path = /5E0F68B4
+Reference = C9;
+ValeurCmp = C;
+IdModule  = Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E42327D
+Path = /5E0FD866
+Reference = C10;
+ValeurCmp = C;
+IdModule  = Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423257
+Path = /5E18903F
+Reference = C11;
+ValeurCmp = CP;
+IdModule  = Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423226
+Path = /5E189228
+Reference = C12;
+ValeurCmp = C;
+IdModule  = Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423554
+Path = /5E100A9A
+Reference = C13;
+ValeurCmp = CP;
+IdModule  = Capacitor_SMD:CP_Elec_8x10.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4234DF
+Path = /5E0FB2A0
+Reference = C14;
+ValeurCmp = CP;
+IdModule  = Capacitor_SMD:CP_Elec_8x10.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423629
+Path = /5E117B1C
+Reference = C15;
+ValeurCmp = CP;
+IdModule  = Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E42360E
+Path = /5E117D2D
+Reference = C16;
+ValeurCmp = CP;
+IdModule  = Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E424170
+Path = /5E154777
+Reference = C17;
+ValeurCmp = C;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4232B5
+Path = /5E15477E
+Reference = C18;
+ValeurCmp = C;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E424080
+Path = /5E13D99C
+Reference = C19;
+ValeurCmp = C;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E424050
+Path = /5E13DF5A
+Reference = C20;
+ValeurCmp = C;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E424008
+Path = /5E1A095C
+Reference = D1;
+ValeurCmp = B250C2300-1500A;
+IdModule  = Diode_SMD:Diode_Bridge_Diotec_SO-DIL-Slim;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4230B2
+Path = /5E12465B
+Reference = D2;
+ValeurCmp = D;
+IdModule  = Diode_SMD:D_SMB_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E42306D
+Path = /5E1247AA
+Reference = D3;
+ValeurCmp = D;
+IdModule  = Diode_SMD:D_SMB_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4236F7
+Path = /5E124714
+Reference = D4;
+ValeurCmp = D;
+IdModule  = Diode_SMD:D_SMB_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4236B2
+Path = /5E12486B
+Reference = D5;
+ValeurCmp = D;
+IdModule  = Diode_SMD:D_SMB_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E42414C
+Path = /5E296A2A
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E42412E
+Path = /5E173B5A
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4240F8
+Path = /5E1C5412
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4240B6
+Path = /5E1C55A1
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423456
+Path = /5E112B4B
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423FCC
+Path = /5E12EDEA
+Reference = R5;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4241D0
+Path = /5E17DC7A
+Reference = R6;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4241A0
+Path = /5E17DFC6
+Reference = R7;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E424200
+Path = /5E0F6F83
+Reference = R8;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E424290
+Path = /5E0FF7B2
+Reference = R9;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E424260
+Path = /5E0F7618
+Reference = R10;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E424230
+Path = /5E100515
+Reference = R11;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E424320
+Path = /5E0F7749
+Reference = R12;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4242F0
+Path = /5E25F716
+Reference = R13;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4242C0
+Path = /5E1005B1
+Reference = R14;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423F9C
+Path = /5E251C34
+Reference = R15;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423F6C
+Path = /5E296E1A
+Reference = R16;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423F3C
+Path = /5E0F737D
+Reference = R17;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423360
+Path = /5E100D47
+Reference = R18;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423330
+Path = /5E0F74C4
+Reference = R19;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423300
+Path = /5E100E43
+Reference = R20;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4231C2
+Path = /5E281C0F
+Reference = R21;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423192
+Path = /5E26D4AD
+Reference = R22;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423E8B
+Path = /5E11F502
+Reference = R23;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423E5B
+Path = /5E17DFF0
+Reference = R24;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423E2B
+Path = /5E17DB94
+Reference = R25;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E42339C
+Path = /5E0E38F6
+Reference = U1;
+ValeurCmp = OPA551U;
+IdModule  = Package_SO:SOIC-8_3.9x4.9mm_P1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423DE3
+Path = /5E0E39AB
+Reference = U2;
+ValeurCmp = OPA551U;
+IdModule  = Package_SO:SOIC-8_3.9x4.9mm_P1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E142AA4
+Path = /5E0E619D
+Reference = VL1;
+ValeurCmp = 6H28;
+IdModule  = libs:6H28_foot;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4235CA
+Path = /5E123F18
+Reference = XS1;
+ValeurCmp = conn_pwr;
+IdModule  = Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E4235AC
+Path = /5E124005
+Reference = XS2;
+ValeurCmp = conn_pwr;
+IdModule  = Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423EFA
+Path = /5E0F614E
+Reference = XS3;
+ValeurCmp = conn;
+IdModule  = Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423F18
+Path = /5E0F6077
+Reference = XS4;
+ValeurCmp = conn;
+IdModule  = Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E423EC2
+Path = /5E1179E7
+Reference = XS5;
+ValeurCmp = JACK6_3;
+IdModule  = libs:JACK6_3;
+EndCmp
+
+EndListe
